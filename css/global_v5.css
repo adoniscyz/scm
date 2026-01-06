@@ -1,0 +1,52 @@
+/** @format */
+
+/* 动画 */
+@keyframes yz-animation-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 遮罩 */
+.yz-position-relative {
+  position: relative;
+}
+.yz-position-absolute {
+  position: relative;
+}
+.yz-mask-loading:before {
+  z-index: var(--yz-mask-loading-index);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--yz-mask-loading-mask-color);
+}
+.yz-mask-loading:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: calc(36px / -2);
+  margin-left: calc(36px / -2);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: 5px solid var(--yz-primary-color);
+  border-right: 5px solid rgba(0, 0, 0, 0.16);
+  animation: yz-animation-rotate 0.6s linear infinite;
+}

@@ -1,0 +1,170 @@
+/** @format */
+
+:root {
+  /* 颜色 */
+  --kingo-primary-color: #af2e55;
+  --kingo-page-color: #e6eef4;
+  --kingo-white-color: #fff;
+  --kingo-black-color: #000;
+  --kingo-global-font-color: #333333;
+  --kingo-global-font-light-color: rgba(100, 100, 100, 0.6);
+  --kingo-not-active-color: rgba(0, 0, 0, 0.1);
+  --kingo-active-color: rgb(85, 85, 85);
+  --kingo-border-color: #dde1eb;
+  --kingo-shadow-color: #d3d3d3;
+
+  /* 高度 */
+  --kingo-bar-height: 40px;
+
+  /* 边距 */
+  --kingo-padding-x: 10px;
+  --kingo-padding-y: 10px;
+
+  /* 大小 */
+  --kingo-global-font-size: 13px;
+
+  /* 圆角 */
+  --kingo-border-radius: 3px;
+
+  /* 字体 */
+  --kingo-global-font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+
+  /* window header */
+  --kingo-window-header-bg-color: #ffffff;
+  --kingo-window-header-font-color: var(--kingo-global-font-color);
+  --kingo-window-header-height: 34px;
+  --kingo-window-header-logo-height: 20px;
+
+  /* window header menubar */
+  --kingo-menubar-menu-btn-hover-and-active-color: rgba(0, 0, 0, 0.16);
+  --kingo-menubar-float-menu-bg-color: #fff;
+  --kingo-menubar-float-menu-shadow: 1px 1px 2px rgba(0, 0, 0, 0.16),
+    -1px 0px 2px rgba(0, 0, 0, 0.16);
+  --kingo-menubar-float-menu-z-index: 999;
+  --kingo-menubar-float-menu-font-color: var(--kingo-global-font-color);
+  --kingo-menubar-float-menu-font-size: var(--kingo-global-font-size);
+  --kingo-menubar-float-menu-list-title-color: var(--kingo-primary-color);
+  --kingo-menubar-float-menu-list-title-font-size: var(--kingo-global-font-size);
+  --kingo-menubar-float-menu-list-item-hover-color: rgba(0, 0, 0, 0.2);
+  --kingo-menubar-float-menu-list-item-action-icon-color: rgba(0, 0, 0, 0.16);
+  --kingo-menubar-float-menu-list-item-action-icon-hover-color: var(--kingo-global-font-color);
+  --kingo-menubar-float-menu-list-item-action-icon-active-color: var(--kingo-primary-color);
+  --kingo-menubar-float-menu-list-item-action-icon-active-hover-color: #be939a;
+
+  /*window side*/
+  --kingo-window-side-bg-color: #ffffff;
+  --kingo-window-side-width: 50px;
+  --kingo-window-side-bar-menu-btn-font-size: 18px;
+  --kingo-window-side-bar-menu-btn-color: #959da5;
+  --kingo-window-side-bar-menu-btn-hover-color: var(--kingo-global-font-color);
+  --kingo-window-side-bar-menu-btn-badge-bg-color: #b86a77;
+  --kingo-window-side-bar-menu-btn-badge-color: #fff;
+  --kingo-window-side-bar-float-panel-z-index: 999;
+  --kingo-window-side-bar-float-panel-title-font-size: 11px;
+  --kingo-window-side-bar-float-panel-font-color: var(--kingo-global-font-color);
+  --kingo-window-side-bar-float-panel-font-size: var(--kingo-global-font-size);
+  --kingo-window-side-bar-float-panel-bg-color: #f6f8fa;
+  --kingo-window-side-bar-float-panel-shadow: 1px 0px 1px -1px rgba(0, 0, 0, 0.3);
+  --kingo-window-side-bar-float-panel-list-item-hover-bg-color: rgba(0, 0, 0, 0.16);
+  --kingo-window-side-bar-float-panel-list-item-action-icon-color: rgba(0, 0, 0, 0.3);
+  --kingo-window-side-bar-float-panel-list-item-action-icon-hover-color: var(
+    --kingo-global-font-color
+  );
+  --kingo-composite-bar-float-panel-tree-indicator-color: rgba(0, 0, 0, 0.16);
+  --kingo-composite-bar-search-float-panel-keyword-highlight-color: var(--kingo-primary-color);
+  /* + -- global */
+  --kingo-window-side-global-bar-float-panel-shadow: 1.5px 1.5px 1.5px var(--kingo-shadow-color),
+    -1px -0.5px 1px var(--kingo-shadow-color);
+
+  /*window tabs*/
+  --kingo-window-tabs-height: 35px;
+  --kingo-window-tabs-bg-color: #f6f8fa;
+  --kingo-window-tabs-item-color: var(--kingo-global-font-color);
+  --kingo-window-tabs-item-active-color: var(--kingo-global-font-color);
+  --kingo-window-tabs-item-active-bg-color: #fff;
+
+  /* yz start */
+  /* 通用 */
+  --yz-primary-color: #af2e55;
+  --yz-active-color: #af2e55;
+  --yz-error-color: rgb(212, 51, 51, 0.5);
+  --yz-primary-light-color: rgb(253, 182, 160);
+  --yz-primary-light-light-color: rgb(255, 205, 190);
+  --yz-border-color: #dde1eb;
+  --yz-disable-color: #f1f1f1;
+  --yz-page-color: #faf9f8;
+  --yz-padding-x: 10px;
+  --yz-padding-y: 10px;
+  --yz-bg-color: #fff;
+  --yz-sticky-bg-color: #fff;
+  --yz-panel-bg-color: #fff;
+  --yz-require-color: red;
+  --yz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 1px rgba(0, 0, 0, 0.1);
+  --yz-font-size: 14px;
+  --yz-font-line-height: 1.5;
+  --yz-font-color: #3c3c3c;
+  --yz-font-light-color: #a8a5a5;
+  --yz-font-light-light-color: #dad2d2;
+  --yz-font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB',
+    'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+
+  --yz-bar-height: 50px;
+
+  /* loading */
+  --yz-mask-loading-index: 1000;
+  --yz-mask-loading-mask-color: rgba(255, 255, 255, 0.36);
+
+  /* btn */
+  --yz-btn-height: 28px;
+  --yz-btn-hover-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), 0px 0px 1px rgba(0, 0, 0, 0.1);
+
+  /* icon-btn */
+  --yz-icon-btn-bg-color: rgb(230, 230, 230);
+
+  /* popup */
+  --yz-popup-z-index: 999;
+  --yz-popup-bg-color: #fff;
+  --yz-popup-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), -3px 0px 5px -5px rgba(0, 0, 0, 0.5),
+    0px -3px 5px -5px rgba(0, 0, 0, 0.5);
+
+  /* list */
+  --yz-list-option-height: 36px;
+
+  /* block */
+  --yz-block-title-font-size: 13.5px;
+  --yz-block-title-gutter: 30px;
+  --yz-block-padding-x: 26px;
+  --yz-block-padding-y: 28px;
+  --yz-block-border-radius: 2px;
+  --yz-block-border-radius: 2px;
+  --yz-block-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.16), -2px 0px 5px -5px rgba(0, 0, 0, 0.5),
+    0px -2px 5px -5px rgba(0, 0, 0, 0.5);
+
+  /* yz table */
+  --yz-table-head-height: 50px;
+  --yz-table-foot-height: 50px;
+  --yz-table-row-height: 36px;
+  --yz-table-bg-color: #fff;
+  --yz-table-cell-bg-color: #fff;
+  --yz-table-editable-cell-color: #fff;
+  --yz-table-row-hover-highlight-color: var(--yz-primary-light-light-color);
+  --yz-table-row-click-highlight-color: var(--yz-primary-light-color);
+  --yz-table-radio-cell-font-size: 18.5px;
+  --yz-table-checkbox-cell-font-size: 16px;
+  --yz-table-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.16), -2px 0px 5px -5px rgba(0, 0, 0, 0.5),
+    0px -2px 5px -5px rgba(0, 0, 0, 0.5);
+
+  /* yz card */
+  --yz-card-bar-height: 50px;
+  --yz-card-content-padding-y: 20px;
+
+  /* yz popup card */
+  --yz-popup-card-bar-height: 40px;
+
+  /* yz form */
+  --yz-form-head-height: 50px;
+  --yz-form-item-height: 32px;
+
+  /* yz full search */
+  /* yz end */
+}

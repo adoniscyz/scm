@@ -1,0 +1,65 @@
+/** @format */
+
+:root {
+  /* common color */
+  --kingo-disable-color: rgb(175, 175, 175);
+
+  /* loading */
+  --kingo-loading-z-index: 9999;
+  --kingo-loading-overlay-color: rgba(0, 0, 0, 0.1);
+  --kingo-loading-rotate-circle-bg-color: rgb(177, 173, 173);
+
+  /* confirm */
+  --kingo-confirm-z-index: 1100;
+  --kingo-confirm-overlay-color: rgba(0, 0, 0, 0.16);
+  --kingo-confirm-card-bg-color: #fff;
+  --kingo-confirm-card-font-color: var(--kingo-global-font-color);
+  --kingo-confirm-card-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.12),
+    -0.8px -0.8px 2px rgba(0, 0, 0, 0.12);
+  --kingo-confirm-card-header-action-btn-hover-bg-color: rgba(0, 0, 0, 0.16);
+
+  /* radio plugin */
+  --kingo-radio-option-height: 36px;
+  --kingo-radio-option-hover-bg-color: rgba(0, 0, 0, 0.16);
+  --kingo-radio-z-index: 999;
+  --kingo-radio-overlay-color: rgba(0, 0, 0, 0.16);
+  --kingo-radio-card-bg-color: #fff;
+  --kingo-radio-card-font-color: var(--kingo-global-font-color);
+  --kingo-radio-card-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.12),
+    -0.8px -0.8px 2px rgba(0, 0, 0, 0.12);
+  --kingo-radio-card-header-action-btn-hover-bg-color: rgba(0, 0, 0, 0.16);
+
+  /* modal plugin */
+  --kingo-modal-z-index: 999;
+  --kingo-modal-overlay-color: rgba(0, 0, 0, 0.08);
+  --kingo-modal-card-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.12),
+    -0.8px -0.8px 2px rgba(0, 0, 0, 0.12);
+  --kingo-modal-card-bg-color: #fff;
+  --kingo-modal-card-border-radius: 5px;
+  --kingo-modal-card-font-color: var(--kingo-global-font-color);
+  --kingo-modal-card-header-action-btn-hover-bg-color: rgba(0, 0, 0, 0.16);
+
+  /* btn */
+  --kingo-btn-border-color: var(--kingo-primary-color);
+  --kingo-btn-border-font-color: var(--kingo-primary-color);
+  --kingo-btn-hover-font-color: #fff;
+  --kingo-btn-hover-bg-color: var(--kingo-primary-color);
+  --kingo-btn-height: 25px;
+  --kingo-btn-border-radius: 2px;
+  --kingo-btn-font-size: var(--kingo-global-font-size);
+  --kingo-btn-confirm-popup-z-index: 999;
+  --kingo-btn-confirm-popup-font-size: var(--kingo-global-font-size);
+  --kingo-btn-confirm-popup-bg-color: #fff;
+  --kingo-btn-confirm-popup-font-color: var(--kingo-global-font-color);
+  --kingo-btn-confirm-popup-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1),
+    -0.6px -0.6px 2px rgba(0, 0, 0, 0.1);
+
+  /* modal */
+  --kingo-modal-z-index: 999;
+  --kingo-modal-overlay-color: rgba(0, 0, 0, 0.2);
+  --kingo-modal-container-bg-color: #fff;
+  --kingo-modal-container-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1),
+    -0.6px -0.6px 2px rgba(0, 0, 0, 0.1);
+  --kingo-modal-container-header-font-color: var(--kingo-global-font-color);
+  --kingo-modal-container-header-action-btn-hover-bg-color: rgba(0, 0, 0, 0.16);
+}
